@@ -1,0 +1,1239 @@
+/* General */
+
+.f-align-bottom {
+    align-items: flex-end;
+}
+
+.bg-primary {
+    background: #2FB4B6 !important;
+}
+
+.entry-title {
+    display: none;
+}
+
+.white-button, .brown-button {
+    font-weight: 600;
+    font-size: 22px;
+    padding: 0.5rem 3rem;
+    border-radius: 8px;
+    transition: all 0.3s ease-in;
+    text-decoration: none;
+}
+
+.white-button:hover, .brown-button:hover {
+    text-decoration: none;
+    transition: all 0.3s ease-in-out;
+}
+
+.white-button, .brown-button:hover {
+    color: #7A6958;
+    background: white;
+}
+
+.white-button:hover, .brown-button {
+    color: white;
+    background: #7A6958;
+}
+
+.btn-white {
+    color: #2FB4B6;
+    background: white;
+    font-size: 26px;
+    font-weight: 600;
+    border-radius: 8px;
+    padding: 1rem 3rem;
+    margin: 15px;
+    transition: all 0.3s ease-in !important;
+}
+
+.btn-white:hover {
+    color: #5D5348;
+    transition: all 0.3s ease-in-out !important;
+}
+
+.hide {
+    display: none;
+}
+
+.contacto-1 .cf7sr-g-recaptcha,
+.info-cf .cf7sr-g-recaptcha {
+    margin: 1rem 0;
+}
+
+.elementor-column-gap-default>.elementor-column>.elementor-element-populated {
+    padding: 0px 15px !important;
+}
+
+.elementor-widget-text-editor {
+    font-family: inherit !important;
+}
+
+/* Imagenes hover */
+
+.oxi-image-hover-wrapper-4 .oxi-addons-row .oxi-image-hover-caption-tab,
+.oxi-image-hover-wrapper-8 .oxi-addons-row .oxi-image-hover-caption-tab {
+    background: rgb(75 75 75 / 60%) !important;
+    border-radius: 12px;
+}
+
+.oxi-image-hover-wrapper-5 .oxi-addons-row .oxi-image-hover-style {
+    padding: 0 !important;
+}
+
+/* Backgrounds home clinicas */
+
+.oxi-image-hover-wrapper-5 .oxi-addons-row .oxi-image-hover-figure-front-section,
+.oxi-image-hover-wrapper-5 .oxi-addons-row .oxi-image-hover-figure-back-section,
+.oxi-image-hover-wrapper-6 .oxi-addons-row .oxi-image-hover-figure-front-section,
+.oxi-image-hover-wrapper-6 .oxi-addons-row .oxi-image-hover-figure-back-section,
+.oxi-image-hover-wrapper-7 .oxi-addons-row .oxi-image-hover-figure-front-section,
+.oxi-image-hover-wrapper-7 .oxi-addons-row .oxi-image-hover-figure-back-section,
+.oxi-image-hover-wrapper-9 .oxi-addons-row .oxi-image-hover-figure-front-section,
+.oxi-image-hover-wrapper-9 .oxi-addons-row .oxi-image-hover-figure-back-section,
+.oxi-image-hover-wrapper-10 .oxi-addons-row .oxi-image-hover-figure-front-section,
+.oxi-image-hover-wrapper-10 .oxi-addons-row .oxi-image-hover-figure-back-section {
+    background: none !important;
+}
+
+/* Imagenes redondeadas */
+
+.home-3 img,
+.home-4 img,
+.home-5 img,
+.nosotros-3 img,
+.microinjerto-3 img,
+.microinjerto-4 img,
+.clinicas-2 img,
+.casos-1 img,
+.casos-3 img,
+.clinicas-1 img,
+.clinicas-4 img {
+    border-radius: 12px !important;
+}
+
+.clinicas-1 img {
+    border-radius: 24px !important;
+}
+
+/* Header */
+
+.pre-header {
+    position: relative;
+    background: #7A6958;
+    padding: 10px 0;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    z-index: 10;
+}
+
+.pre-header p {
+    font-size: 14px;
+    font-weight: 600;
+    margin: 0;
+}
+
+.pre-header a {
+    color: white;
+    text-decoration: none;
+    transition: all 0.3s ease-in;
+}
+
+.pre-header a:hover {
+    opacity: 0.8;
+    transition: all 0.3s ease-in-out;
+}
+
+#main-nav {
+    position: relative;
+    border-radius: 8px;
+    z-index: 999;
+}
+
+#main-nav .navbar-brand img {
+    padding: 10px;
+}
+
+#main-nav.navbar-dark .navbar-nav .nav-link {
+    color: white;
+    transition: all 0.3s ease-in;
+}
+
+#main-nav.navbar-dark .navbar-nav .nav-link:hover {
+    opacity: 0.7;
+    transition: all 0.3s ease-in-out;
+}
+
+#main-nav.navbar-dark .navbar-nav .menu-item-282 {
+    background: white;
+    border-radius: 8px;
+}
+
+#main-nav.navbar-dark .navbar-nav .menu-item-282 a {
+    font-weight: 600;
+    color: #7A6958;
+}
+
+#main-nav.navbar-dark .dropdown-menu {
+    border: 1px solid #2FB4B6;
+    padding: 0;
+}
+
+#main-nav.navbar-dark .dropdown-menu .dropdown-item, 
+#main-nav.navbar-dark .dropdown-menu .dropdown-item {
+    transition: all 0.3s ease-in;
+}
+
+#main-nav.navbar-dark .dropdown-menu .dropdown-item:focus, 
+#main-nav.navbar-dark .dropdown-menu .dropdown-item:hover,
+#main-nav.navbar-dark .dropdown-menu .dropdown-item.active, 
+#main-nav.navbar-dark .dropdown-menu .dropdown-item:active {
+    background: #2FB4B6;
+    color: white;
+    transition: all 0.3s ease-in-out;
+}
+
+#main-nav .menu-item.current_page_item a,
+#main-nav .menu-item-has-children.active a.dropdown-toggle {
+    font-weight: bold !important;
+    transition: all 0.3s ease-in-out;
+    text-decoration: underline;
+    text-underline-offset: 10px;
+}
+
+/* Home */
+
+.home-1 {
+    padding: 4rem 0 2rem 0;
+    color: white;
+    text-align: center;
+}
+
+.home-1 p {
+    margin-bottom: 3rem;
+}
+
+.home-2 {
+    padding: 4rem 0 6rem 0;
+    background: url('../../../../img/cruz-bg-1.png');
+    background-repeat: no-repeat;
+    background-size: 25%;
+}
+
+.home-2 span,
+.home-2 p,
+.home-4 span,
+.home-4 p, 
+.home-6 span, 
+.casos-2 span,
+.contacto-1 span,
+.nosotros-1 span,
+.nosotros-3 span,
+.microinjerto-5 span,
+.clinicas-1 span,
+.master-slider-parent.microinjerto-2 .ms-slide-layers  .slider-box .box span {
+    font-size: 16px;
+    color: #7A6958;
+    line-height: 1.5;
+}
+
+.clinicas-1 a {
+    font-weight: bold;
+    color: #2FB4B6;
+    text-decoration: none !important;
+}
+
+.home-2 h2, 
+.home-4 h2, 
+.home-6 h2, 
+.casos-2 h2, 
+.contacto-1 h2,
+.nosotros-1 h2,
+.nosotros-3 h2,
+.microinjerto-5 h2,
+.microinjerto-6 h2,
+.clinicas-1 h2,
+.master-slider-parent.microinjerto-2 .ms-slide-layers  .slider-box .box h2 {
+    font-size: 42px;
+    font-weight: 600;
+    color: #2FB4B6;
+    line-height: 1;
+}
+
+.home-3 {
+    background: url('../../../../img/home-3-bg.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    padding: 3rem 0;
+}
+
+.home-3 p, 
+.casos-2 p,
+.contacto-1 p,
+.nosotros-1 p,
+.microinjerto-1 p,
+.microinjerto-5 p,
+.microinjerto-6 p,
+.clinicas-1 p,
+.clinicas-3 p,
+.master-slider-parent.microinjerto-2 .ms-slide-layers  .slider-box .box p {
+    font-size: 18px;
+    color: #7A6958;
+    line-height: 1.1;
+}
+
+.home-3 h3 {
+    font-size: 30px;
+    font-weight: 600;
+    color: #2FB4B6;
+}
+
+.home-3 .bg-primary,
+.microinjerto-1 .bg-primary,
+.clinicas-1 .bg-primary {
+    display: flex;
+    align-items: center;
+    border-radius: 8px;
+    text-align: left;
+    padding: 1rem;
+    margin-bottom: 3rem;
+}
+
+.home-3 .bg-primary p,
+.microinjerto-1 .bg-primary p,
+.clinicas-1 .bg-primary p {
+    font-size: 22px;
+    font-weight: 600;
+    margin-bottom: 0;
+    width: 80%;
+    color: white;
+}
+
+.home-3 .bg-primary a,
+.microinjerto-1 .bg-primary a,
+.clinicas-1 .bg-primary a {
+    color: white;
+    margin-left: auto;
+    transition: all 0.3s ease-in;
+}
+
+.home-3 .bg-primary a:hover,
+.microinjerto-1 .bg-primary a:hover,
+.clinicas-1 .bg-primary a:hover {
+    text-decoration: none;
+    opacity: 0.8;
+    transition: all 0.3s ease-in-out;
+}
+
+.home-3 .bg-primary a .fa,
+.microinjerto-1 .bg-primary a .fa,
+.clinicas-1 .bg-primary a .fa {
+    font-size: 30px;
+}
+
+.carrusel-injertos {
+    margin: 3rem 0 4rem 0;
+}
+
+.carrusel-injertos .col {
+    padding: 0;
+}
+
+.carrusel-injertos .wpcp-carousel-section {
+    padding: 0;
+}
+
+.carrusel-injertos .wpcp-carousel-section .slick-slide {
+    margin: 0;
+}
+
+.home-4 {
+    text-align: center;
+}
+
+.home-4 a {
+    color: #7A6958
+}
+
+.home-4 h2, 
+.contacto-1 h2,
+.microinjerto-5 h2,
+.intervencion h2,
+.master-slider-parent.microinjerto-2 .ms-slide-layers  .slider-box .box h2 {
+    margin-bottom: 2rem;
+} 
+
+.home-4 .carrusel {
+    align-items: center;
+    margin: 2rem 0 3rem 0;
+}
+
+.home-4 .carrusel .fa {
+    font-size: 48px;
+    color: #2FB4B6;
+}
+
+.home-4 .carrusel .info-clinica {
+    background: #2FB4B6;
+    padding: 0.5rem;
+    color: white;
+    border-radius: 8px;
+}
+
+.home-4 .carrusel .info-clinica h3 {
+    font-size: 24px;
+    font-weight: 600;
+    margin-bottom: 0;
+}
+
+.home-4 .carrusel .info-clinica ul {
+    list-style: none;
+    margin: 0.5rem 0 0 0;
+    padding: 0;
+    line-height: 1;
+}
+
+.home-4 .carrusel .info-clinica ul li {
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.home-4 .logos {
+    margin-bottom: 4rem;
+}
+
+.home-5 {
+    background: url('../../../../img/opiniones-bg.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    padding: 2rem 0 4rem 0;
+}
+
+.home-5 h2,
+.nosotros-2 h2,
+.nosotros-3 .clinica-text h3,
+.microinjerto-3 h2,
+.clinicas-2 h2 {
+    font-size: 42px;
+    font-weight: 600;
+    color: white;
+    line-height: 1;
+}
+
+.home-5 p,
+.microinjerto-3 p,
+.clinicas-2 p {
+    font-size: 16px;
+    color: white;
+    line-height: 1.1;
+}
+
+#carouselOpiniones .center {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 1.5rem;
+}
+
+#carouselOpiniones .carousel-indicators {
+    bottom: -3rem;
+}
+
+#carouselOpiniones .d-inline-flex .fa {
+    color: #ffc107;
+}
+
+.home-5 .white-bg {
+    margin-top: 3rem;
+    background: white;
+    padding: 4rem 2rem 2rem 2rem;
+    color: #7A6958;
+    border-radius: 12px;
+    display: flex;
+    /*justify-content: center;*/
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    min-height: 305px;
+}
+
+.home-5 .white-bg img {
+    position: absolute;
+    top: 0;
+    width: 13%;
+    border: 0px;
+    border-radius: 12px;
+}
+
+.home-5 .white-bg p {
+    color: #7A6958;
+    margin: 1rem 0;
+}
+
+.home-5 .white-bg h5 {
+    font-size: 12px;
+}
+
+.home-6 {
+    text-align: center;
+    padding: 3rem 0 2rem 0;
+}
+
+/* Nosotros */
+
+.nosotros-1,
+.clinicas-1 {
+    background: url('../../../../img/nosotros-1-bg.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 6rem 0;
+}
+
+.nosotros-2 {
+    /*
+    background: url('../../../../img/nosotros-2-bg.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    */
+    padding: 6rem 0;
+    text-align: center;
+    color: white;
+}
+
+.nosotros-2 p {
+    font-size: 18px;
+    line-height: 1.3;
+}
+
+.nosotros-1 h2,
+.nosotros-2 h2,
+.clinicas-1 h2 {
+    margin-bottom: 1.5rem;
+}
+
+.nosotros-3 {
+    background: url('../../../../img/nosotros-3-bg.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 4rem 0 5rem 0;
+    text-align: center;
+}
+
+.nosotros-3 .col-12 {
+    margin-top: 4rem;
+}
+
+.nosotros-3 a {
+    color: white;
+    transition: all 0.3s ease-in;
+}
+
+.nosotros-3 a:hover {
+    text-decoration: none;
+    opacity: 0.8;
+    transition: all 0.3s ease-in-out;
+}
+
+.nosotros-3 .clinica-text {
+    color: white;
+    position: absolute;
+    top: 130px;
+    left: 100px;
+    text-align: left;
+}
+
+.nosotros-3 .clinica-text p {
+    font-size: 22px;
+    margin: 0;
+}
+
+/* Microinjertos */
+
+.microinjerto-1 {
+    background: url('../../../../img/microinjerto-1-bg.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 5rem 0;
+}
+
+.microinjerto-1 .bg-primary p,
+.clinicas-1 .bg-primary p {
+    width: 100%;
+}
+
+.microinjerto-3,
+.clinicas-2 {
+    background: url('../../../../img/microinjerto-3-bg.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 3rem 0;
+    margin-top: 5rem;
+}
+
+.microinjerto-3 {
+    margin-top: 0;
+}
+
+.microinjerto-3 h2,
+.clinicas-2 h2 {
+    margin-bottom: 1rem;
+}
+
+.microinjerto-4 {
+    margin: 3rem 0;
+}
+
+.microinjerto-5 {
+    margin-bottom: 3rem;
+}
+
+.microinjerto-5 ul {
+    padding: 0;
+    margin-top: 2rem;
+    list-style: none;
+}
+
+.microinjerto-5 ul li {
+    margin-bottom: 1.5rem;
+}
+
+.microinjerto-5 ul li h3 {
+    color: #2FB4B6;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.microinjerto-5 ul li i {
+    float: right;
+    cursor: pointer;
+    transition: all 0.3s ease-in;
+}
+
+.microinjerto-6 {
+    background: url('../../../../img/home-3-bg.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 4rem 0;
+}
+
+.microinjerto-6 h2 {
+    margin-bottom: 2.5rem;
+}
+
+.intervencion {
+    /*background: url('../../../../img/intervencion-bg.png');
+    background-repeat: no-repeat;
+    background-size: cover;*/
+    padding: 4rem 0;
+    text-align: center;
+}
+
+.intervencion h2 {
+    color: white;
+    font-size: 31px;
+    font-weight: 600;
+}
+
+.intervencion h3 {
+    color: white;
+    font-size: 26px;
+    font-weight: 600;
+    margin: 1rem 0 0 0;
+}
+
+.intervencion h4 {
+    color: white;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.intervencion img {
+    max-height: 90px;
+}
+
+/* Clinicas */
+
+.clinicas-3 {
+    text-align: center;
+    margin: 4rem 0 3rem 0;
+}
+
+.clinicas-4 {
+    margin-bottom: 3rem;
+}
+
+/* Contact form */
+
+.wpcf7 {
+    max-width: 100%;
+}
+
+.info-cf {
+    background: url('../../../../img/info-cf-bg.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 8px;
+    width: 80%;
+    margin: 5rem auto 3rem auto;
+    text-align: left;
+    padding: 3rem 4rem;
+}
+
+.info-cf p {
+    font-size: 21px;
+    color: white;
+}
+
+.info-cf h2 {
+    font-size: 42px;
+    font-weight: 600;
+    color: white;
+}
+
+.info-cf .form-holder p,
+.info-cf-white .form-holder p {
+    margin-bottom: 0;
+}
+
+.info-cf .form-holder br,
+.info-cf-white .form-holder br {
+    display: none;
+}
+
+.info-cf .form-holder textarea,
+.info-cf-white .form-holder textarea {
+    height: 200px;
+}
+
+.info-cf .form-holder input, 
+.info-cf .form-holder textarea,
+.info-cf-white .form-holder input,
+.info-cf-white .form-holder textarea {
+    margin-bottom: 0.5rem;
+    border: none !important;
+}
+
+.info-cf .form-holder input, 
+.info-cf .form-holder textarea,
+.info-cf-white .form-holder input,
+.info-cf-white .form-holder textarea,
+.info-cf .form-holder input::placeholder, 
+.info-cf .form-holder textarea::placeholder,
+.info-cf-white .form-holder input::placeholder,
+.info-cf-white .form-holder textarea::placeholder {
+    font-size: 14px;
+}
+
+.info-cf .form-holder input, 
+.info-cf .form-holder textarea,
+.info-cf-white .form-holder input,
+.info-cf-white .form-holder textarea {
+    color: #7A6958 ;
+}
+
+.info-cf .form-holder textarea,
+.info-cf .form-holder input::placeholder, 
+.info-cf .form-holder textarea::placeholder,
+.info-cf-white .form-holder input::placeholder,
+.info-cf-white .form-holder textarea::placeholder {
+    color: #7a6958b3;
+}
+
+.info-cf .form-holder input:focus, 
+.info-cf .form-holder textarea:focus,
+.info-cf .form-holder input:focus-visible, 
+.info-cf .form-holder textarea:focus-visible,
+.info-cf-white .form-holder input:focus, 
+.info-cf-white .form-holder textarea:focus,
+.info-cf-white .form-holder input:focus-visible, 
+.info-cf-white .form-holder textarea:focus-visible {
+    outline: none;
+    box-shadow: none;
+}
+
+.info-cf .form-holder .your-tel,
+.info-cf-white .form-holder .your-tel {
+    margin-right: 0.5rem;
+}
+
+.info-cf .form-holder input[type="submit"],
+.info-cf-white .form-holder input[type="submit"] {
+    font-weight: 600;
+    font-size: 22px;
+    padding: 0.1rem 3rem;
+    border-radius: 8px;
+    color: white;
+    background: #7A6958;
+    width: auto;
+    height: auto;
+    border: none;
+}
+
+.info-cf .form-holder input[type="submit"]:hover {
+    color: #7A6958;
+    background: white;
+}
+
+.info-cf-white .form-holder input[type="submit"]:hover {
+    color: #7A6958;
+    background: #F6F8FA;
+}
+
+.info-cf-white .form-holder input, 
+.info-cf-white .form-holder textarea {
+    background: #F6F8FA;
+}
+
+.contacto-llamada input[type="text"] {
+    border: 2px solid #2FB4B6;
+    border-radius: 8px;
+}
+
+.contacto-llamada input[type="text"],
+.contacto-llamada input[type="text"]::placeholder {
+    font-size: 14px;
+    color: #7A6958 ;
+}
+
+.contacto-llamada input[type="text"]:focus,
+.contacto-llamada input[type="text"]:focus-visible {
+    outline: none;
+    box-shadow: none;
+    border-color: #2FB4B6;
+}
+
+.contacto-llamada input[type="submit"] {
+    color: white;
+    background: #2FB4B6;
+    border: 2px solid #2FB4B6;
+    border-radius: 8px;
+    transition: all 0.3s ease-in;
+}
+
+.contacto-llamada input[type="submit"]:hover {
+    color: #2FB4B6;
+    background: white;
+    border: 2px solid #2FB4B6;
+    transition: all 0.3s ease-in-out;
+}
+
+/* Casos destacados */
+
+.casos-1 {
+    padding: 4rem 0;
+}
+
+.casos-1 .bg-primary {
+    color: white;
+    border-radius: 32px;
+    text-align: center;
+    padding: 0.5rem 0;
+    margin-top: -40px;
+}
+
+.casos-1 .bg-primary p {
+    margin-bottom: 0;
+}
+
+.casos-2 {
+    background: url('../../../../img/casos-1-bg.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 5rem 0 3rem 0;
+}
+
+.casos-2 h2 {
+    margin-bottom: 1.5rem;
+}
+
+/* Contacto */
+
+.contacto-1 {
+    background: url('../../../../img/contacto-1-bg.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 4rem 0 3rem 0;
+}
+
+.contacto-1 .flex-column-1, 
+.contacto-1 .flex-column-2 {
+    display: flex;
+    flex-direction: column;
+    margin-top: 2rem;
+}
+
+.contacto-1 .flex-column-1 {
+    align-items: center;
+}
+
+.contacto-1 .flex-column-1 img {
+    max-width: 50px;
+    max-height: 50px;
+}
+
+.contacto-1 .flex-column-1 img.stretch {
+    max-width: 50px;
+    max-height: 35px;
+}
+
+.contacto-1 .flex-column-2{
+    margin-left: 2rem;
+}
+
+.contacto-1 .flex-column-1 img, 
+.contacto-1 .flex-column-2 .d-block {
+    flex: 1;
+    margin-bottom: 1rem;
+}
+
+.contacto-1 .flex-column-2 .d-block p {
+    margin: 0;
+}
+
+.contacto-1 .flex-column-2 .d-block a {
+    color: #2FB4B6;
+    font-size: 16px;
+    font-weight: 600;
+    transition: all 0.3s ease-in;
+}
+
+.contacto-1 .flex-column-2 .d-block a:hover {
+    text-decoration: none;
+    opacity: 0.8;
+    transition: all 0.3s ease-in-out;
+}
+
+/* Footer */
+
+#wrapper-footer-full, #wrapper-static-hero {
+    background: none;
+}
+
+#wrapper-footer .site-footer {
+    background: #5D5348;
+    color: white;
+    padding: 2.5rem 0;
+}
+
+#wrapper-footer .site-footer img {
+    width: 80%;
+    margin-bottom: 1rem;
+}
+
+#wrapper-footer .site-footer ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+#wrapper-footer .site-footer p, #wrapper-footer .site-footer a {
+    font-size: 16px;
+    color: white;
+    transition: all 0.3s ease-in;
+}
+
+#wrapper-footer .site-footer a:hover {
+    text-decoration: none;
+    opacity: 0.8;
+    transition: all 0.3s ease-in-out;
+}
+
+#wrapper-footer .site-footer h3 {
+    font-size: 22px;
+    font-weight: 400;
+    color: white;
+}
+
+#wrapper-footer .copy {
+    background: #3C342C;
+    color: white;
+    padding: 0.2rem ;
+}
+
+#wrapper-footer .copy a, #wrapper-footer .copy p {
+    font-size: 11px;
+    font-weight: 600;
+    color: white;
+    margin: 0;
+    line-height: 2.5;
+}
+
+#wrapper-footer .copy a:hover {
+    text-decoration: none;
+    opacity: 0.8;
+    transform: all 0.3s ease-in-out;
+}
+
+/* Master-slider */
+
+.master-slider-parent.header {
+    margin-top: -8rem;
+    z-index: 1;
+}
+
+.master-slider-parent.header .ms-slide-layers,
+.master-slider-parent.microinjerto-2 .ms-slide-layers {
+    max-width: 100% !important;
+    left: 0 !important;
+}
+
+.master-slider-parent.header .ms-slide-layers .page-slider h1 {
+    color: white;
+    font-size: 56px;
+    padding: 5rem 15px;
+}
+
+.master-slider-parent.microinjerto-2 .ms-slide-layers  .slider-box .box {
+    background: white;
+    padding: 3rem 2rem;
+    margin: 5rem 15px;
+    border-radius: 12px;
+}
+
+.master-slider-parent.microinjerto-2 .ms-slide-layers  .slider-box .box img {
+    position: absolute;
+    top: -70px;
+    left: -70px;
+}
+
+.master-slider-parent.home .master-slider .ms-container .ms-overlay-layers h1 {
+    padding: 5rem 15px 1rem 15px;
+    margin: 0;
+}
+
+.master-slider-parent.home .master-slider .ms-container .ms-overlay-layers h2 {
+    color: white;
+    font-size: 31px;
+    padding: 0 15px;
+}
+
+.master-slider-parent.home .master-slider .ms-container .ms-overlay-layers #scroll {
+    position: absolute;
+    bottom: -5rem;
+    left: 25px;
+}
+
+.full-slide .ms-slide-layers {
+    max-width: 100% !important;
+    left: 0 !important;
+}
+
+.full-slide .ms-slide-layers .intervencion .col-12 {
+    padding: 0;
+}
+
+/* Oxi */
+
+.oxi-image-hover-wrapper-2 .oxi-addons-row .oxi_addons__light_box,
+.oxi_addons__light_box_style_1 .oxi_addons__light_box_parent {
+    padding: 0 !important;
+}
+
+/* Media */
+
+@media (min-width: 1921px) {
+    .master-slider-parent.header {
+        margin-top: -10rem;
+    }
+}
+
+@media (min-width: 769px) {
+    .home-4 .carrusel {
+        display: inline-flex;
+        width: 100%;
+    }
+    .microinjerto-3 img, 
+    .clinicas-2 img {
+        margin-top: -5rem;
+    }
+    #carouselOpiniones .carousel-control-next {
+        position: absolute;
+        right: -6rem;
+    }
+    
+    #carouselOpiniones .carousel-control-prev {
+        position: absolute;
+        left: -6rem;
+    }
+}
+
+@media (max-width: 1200px) {
+    .master-slider-parent.home .master-slider .ms-container .ms-overlay-layers h1 {
+        font-size: 32px;
+        padding: 7rem 15px 1rem 15px;
+    }
+    .master-slider-parent.home .master-slider .ms-container .ms-overlay-layers h2 {
+        font-size: 22px;
+    }
+    .info-cf h2 {
+        font-size: 36px;
+    }
+}
+
+@media (max-width: 992px) {
+    .home-5 .white-bg img {
+        width: 18%;
+    }
+}
+
+@media (max-width: 768px) {
+    .mtxs-8 {
+        margin-top: 5rem !important;
+    }
+    .pre-header {
+        padding: 10px;
+        font-size: 12px;
+    }
+    .pre-header .row {
+        margin: 0;
+    }
+    .pre-header .col-12 {
+        padding: 0;
+    }
+    .home-2 {
+        padding: 3rem 0 4rem 0;
+    }
+    .home-2 img {
+        margin-bottom: 2rem;
+    }
+    .home-3 {
+        background: #f9f9f9;
+    }
+    .home-3 img {
+        margin: 1rem 0;
+    }
+    .info-cf {
+        width: 100%;
+        padding: 2rem 1rem;
+    }
+    .info-cf h2{
+        font-size: 32px;
+    }
+    .info-cf p {
+        font-size: 18px;
+    }
+    .home-4 .carrusel img {
+        margin: 1rem 0;
+    }
+    .home-5 .white-bg {
+        padding: 3rem 1rem 1rem 1rem;
+    }
+    .home-5 .white-bg img {
+        width: 20%;
+    }
+    .contacto-llamada input[type="text"] {
+        margin-bottom: 1rem;
+    }
+    #wrapper-footer .site-footer h3 {
+        margin: 1rem 0;
+    }
+    #main-nav.navbar-dark .navbar-nav .menu-item-282 a {
+        padding: 0.5rem 1rem;
+    }
+    .nosotros-1, 
+    .clinicas-1 {
+        background: url('../../../../img/cruz-bg-1.png');
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        padding: 6rem 0 2rem 0;
+    }
+    .nosotros-2 {
+        padding: 2rem 0;
+    }
+    .nosotros-2 h2 {
+        font-size: 24px;
+        margin-bottom: 0.5rem;
+    }
+    .nosotros-2 p {
+        font-size: 18px;
+    }
+    .nosotros-3 {
+        padding: 0;
+    }
+    .nosotros-3 .clinica-text {
+        top: 30px;
+        left: 30px;
+    }
+    .nosotros-3 .clinica-text h3 {
+        font-size: 28px;
+    }
+    .nosotros-3 .clinica-text p {
+        font-size: 14px;
+    }
+    .microinjerto-4 img,
+    .clinicas-4 img {
+        margin: 1rem 0;
+    }
+    .microinjerto-6 {
+        background: url('../../../../img/cruz-bg-1.png');
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        padding: 4rem 0 0 0;
+    }
+    .casos-1 .bg-primary {
+        margin-top: 1rem;
+    }
+    .contacto-1 {
+        background: url('../../../../img/cruz-bg-1.png');
+        background-repeat: no-repeat;
+        background-size: 70%;
+    }
+    .info-cf-white .col-12 {
+        padding: 0;
+    }
+    .master-slider-parent .master-slider .ms-container .ms-overlay-layers h1 {
+        font-size: 42px;
+    }
+    .master-slider-parent.microinjerto-2 .ms-slide-layers .slider-box .box {
+        margin: 3rem 10px;
+        padding: 2rem 1rem;
+    }
+    .master-slider-parent.microinjerto-2 .ms-slide-layers .slider-box .box h2 {
+        margin-bottom: 1rem;
+        font-size: 32px;
+    }
+    .master-slider-parent.microinjerto-2 .ms-slide-layers .slider-box .box p {
+        font-size: 14px;
+    }
+    .master-slider-parent.microinjerto-2 .ms-slide-layers .slider-box .box img {
+        display: none;
+    }
+    .master-slider-parent.home .master-slider .ms-container .ms-overlay-layers h1 {
+        font-size: 30px;
+    }
+    .master-slider-parent.home .master-slider .ms-container .ms-overlay-layers h2 {
+        font-size: 20px;
+    }
+    .master-slider-parent.home .master-slider .ms-container .ms-overlay-layers #scroll {
+        bottom: -4rem;
+    }
+    .btn-white {
+        font-size: 14px;
+    }
+    .master-slider-parent.header {
+        margin-top: -3rem;
+    }
+    .container-fluid-mobile {
+        max-width: 100%;
+        width: 100%;
+        margin: 0;
+        padding: 0;
+    }
+    #main-nav {
+        margin-top: 0 !important;
+        border-radius: 0;
+    }
+    .oxi-image-hover-wrapper-4 .oxi-addons-row .oxi-image-hover-style-general,
+    .oxi-image-hover-wrapper-8 .oxi-addons-row .oxi-image-hover-style-general {
+        height: 350px;
+    }
+    .hide-mobile {
+        display: none;
+    }
+}
